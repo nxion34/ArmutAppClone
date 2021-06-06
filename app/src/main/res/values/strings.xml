@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">ArmutApp</string>
+
+    <string name="internethataBaglantiBaslik">İnternet Bağlantınızı Kontrol Ediniz</string>
+
+    <string name="cikisUyari">Çıkmak istediğinize emin misiniz?</string>
+    <string name="cikisUyari2">Şuanda uygulamadan cıkıyorsunuz !</string>
+    <string name="cikisUyari3">CIKIŞ</string>
+    <string name="ayarlaraGit">Ayarlara Git</string>
+    <string name="evetUyari">EVET</string>
+    <string name="hayirUyari">HAYIR</string>
+    <string name="internetUyariBaslik">İNTERNET YOK ! Wİ-Fİ VEYA MOBİL VERİNİZİ AÇINIZ</string>
+    <string name="internetUyariAltBaslik">Uygulamayı kullanabilmek için internet gerekmektedir.</string>
+    <string name="lutfenBekleyiniz">Lütfen Bekleyiniz...</string>
+
 </resources>
