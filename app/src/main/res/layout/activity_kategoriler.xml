@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Hangi Hizmete İhtiyacın Var ?"
+        android:text="Şimdi Hizmetlere Göz At"
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,11 +29,22 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <SearchView
+        android:id="@+id/searchView"
         android:layout_width="405dp"
         android:layout_height="45dp"
         android:layout_marginTop="28dp"
+        android:queryHint="Hangi Hizmete İhtiyacın Var ?"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        tools:listitem="@layout/cardview_hizmetler" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
