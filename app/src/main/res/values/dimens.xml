@@ -1,0 +1,24 @@
+<resources>
+
+    <dimen name="sıfırDp">0dp</dimen>
+
+
+    <dimen name="imageView2MarginTop">36dp</dimen>
+
+
+    <dimen name="imageView3_width">404dp</dimen>
+    <dimen name="imageView3_height">38dp</dimen>
+    <dimen name="imageView3_margintop">204dp</dimen>
+
+
+    <dimen name="textViewSize">34sp</dimen>
+
+    <dimen name="layout_marginStart">55dp</dimen>
+
+
+
+
+
+
+
+</resources>

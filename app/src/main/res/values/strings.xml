@@ -13,4 +13,14 @@
     <string name="internetUyariAltBaslik">Uygulamayı kullanabilmek için internet gerekmektedir.</string>
     <string name="lutfenBekleyiniz">Lütfen Bekleyiniz...</string>
 
+    <string name="sifreHata">Şifre hatalı girildi</string>
+    <string name="emailHata">Lütfen email gir</string>
+
+    <string name="ePostaveSifreniGir">Mail ve Şifrenizi Giriniz</string>
+    <string name="giris_baslik">Mail ve Şifrenizi Giriniz</string>
+    <string name="giris_sifre">Mail ve Şifrenizi Giriniz</string>
+
+
+
+
 </resources>

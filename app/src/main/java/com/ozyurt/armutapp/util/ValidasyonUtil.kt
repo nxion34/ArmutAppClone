@@ -8,4 +8,11 @@ object ValidasyonUtil {
             return true
         return false
     }
+    fun emailVeSifreAlanıDoluMu(metin: String): Boolean {
+        if (!metin.isNullOrBlank()){
+            return true
+        }else{
+            return false
+        }
+    }
 }
