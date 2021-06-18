@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ozyurt.armutapp">
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,13 +11,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_circle"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ArmutApp"
-        android:usesCleartextTraffic="true">
-        <activity android:name=".ui.detay.UstaDetayActivity"></activity>
-        <activity android:name=".ui.ustalar.UstalarActivity" />
-        <activity android:name=".ui.kategoriler.KategorilerActivity" />
-        <activity android:name=".ui.giris.GirisActivity" />
-        <activity android:name=".ui.splash.MainActivity">
+        android:theme="@style/Theme.ArmutApp">
+        <activity android:name=".SplashScreen"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
