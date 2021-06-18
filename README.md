@@ -7,7 +7,7 @@
 
 <h2>EKRAN GÖRÜNTÜLERİ</h2>
 
-![githubonplan](https://user-images.githubusercontent.com/61050531/105400745-68224d80-5c36-11eb-8ac7-0543afcdb8a4.gif)
+![githubonplan](https://github.com/nxion34/ArmutAppClone/blob/main/ekranGoruntulerFul.fw.png)
 
 <h2>MİMARİ PAKET YAPISI</h2>
 
