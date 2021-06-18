@@ -16,9 +16,39 @@
     <string name="sifreHata">Şifre hatalı girildi</string>
     <string name="emailHata">Lütfen email gir</string>
 
+    <string name="mertcan">Mertcan</string>
+    <string name="observe">observe:</string>
+
     <string name="ePostaveSifreniGir">Mail ve Şifrenizi Giriniz</string>
     <string name="giris_baslik">Mail ve Şifrenizi Giriniz</string>
     <string name="giris_sifre">Mail ve Şifrenizi Giriniz</string>
+    <string name="sifreHatali">Şifre Hatalı</string>
+    <string name="lutfenSifreGir">Lütfen şifreni gir</string>
+    <string name="filtre_sirala">Sırala..</string>
+    <string name="filtre_sirala_artan">İsme Göre Artan..</string>
+    <string name="filtre_sirala_azalan">İsme Göre Azalan..</string>
+
+    <string name="giris_yap">Giriş Yap</string>
+
+    <string name="simdi_hizmetlere_gozat">Şimdi Hizmetlere Göz At</string>
+
+    <string name="tesisatci">Tesisatçı</string>
+
+    <string name="detay">Detay</string>
+
+    <string name="sirala">Sırala</string>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

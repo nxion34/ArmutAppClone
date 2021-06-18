@@ -24,5 +24,4 @@ class KategoriRemoteDataSource : KategoriDataSource {
             e.printStackTrace()
         }
     }
-
 }

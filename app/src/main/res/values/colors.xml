@@ -8,5 +8,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="login_kirmizi">#B80005</color>
+    <color name="colorTransparent">#00FFFFFF</color>
     <color name="armut_yesil">#0BA131</color>
+    <color name="colorAccent">#cf222a</color>
+    <color name="logoRengi">#cf222a</color>
+    <color name="logoYaziRengi">#FFFFFFFF</color>
+    <color name="logoYaziRengiSiyah">#FF000000</color>
+    <color name="hintColor">#DD838080</color>
+    <color name="searchBorderColor">#DD777676</color>
+    <color name="detayCardView">#2ADDDDDD</color>
 </resources>

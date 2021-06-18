@@ -49,8 +49,8 @@ class GirisActivity : AppCompatActivity() {
                         startActivity(kategoriIntent)
                         finish()
                     }else{
-                        txtEmailHataMesaj.text = ""
-                        txtSifreHataMesaj.text = "Şifre hatalı girildi"
+                        txtEmailHataMesaj.text = "Sifre veya Email Hatalı"
+                        txtSifreHataMesaj.text = "Sifre veya Email Hatalı"
                     }
                 }else{
                     txtSifreHataMesaj.text = "Lütfen şifreni gir"
