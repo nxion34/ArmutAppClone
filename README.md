@@ -4,7 +4,7 @@
 
 ![ustamyanimdalogo](https://raw.githubusercontent.com/nxion34/ArmutAppClone/main/assets/armutlogo.jpeg)
 <h4>Eviniz ve İş Yeriniz için çözüm ortağınız olan tüm ustalar burada.Boyacı,Tesisatçı,Elektrikçi Hemen Ustanı Bul Android Mobil Uygulama</h4>
-
+![githubonplans](https://github.com/nxion34/ArmutAppClone/blob/main/screenvideo/armut.gif?raw=true)
 <h2>EKRAN GÖRÜNTÜLERİ</h2>
 
 ![githubonplan](https://github.com/nxion34/ArmutAppClone/blob/main/ekranGoruntulerFul.fw.png)
