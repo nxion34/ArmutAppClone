@@ -2,7 +2,7 @@
 
 <h1>ArmutCloneApp</h1>
 
-![ustamyanimdalogo](https://user-images.githubusercontent.com/61050531/105400386-e8947e80-5c35-11eb-9f2c-d150550adc8a.png)
+![ustamyanimdalogo](https://github.com/nxion34/ArmutAppClone/blob/main/armutlogotek.png)
 <h4>Eviniz ve İş Yeriniz için çözüm ortağınız olan tüm ustalar burada.Boyacı,Tesisatçı,Elektrikçi Hemen Ustanı Bul Android Mobil Uygulama</h4>
 
 <h2>EKRAN GÖRÜNTÜLERİ</h2>
