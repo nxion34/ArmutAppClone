@@ -1,4 +1,4 @@
-![ustakapak](https://user-images.githubusercontent.com/61050531/105400033-715eea80-5c35-11eb-8834-428c242753f8.png)
+![ustakapak](https://github.com/nxion34/ArmutAppClone/blob/main/arkaplanliarmut.png)
 
 <h1>ArmutCloneApp</h1>
 
