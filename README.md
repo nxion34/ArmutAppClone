@@ -1,8 +1,8 @@
-![ustakapak](https://github.com/nxion34/ArmutAppClone/blob/main/arkaplanliarmut.png)
+![ustakapak](https://raw.githubusercontent.com/nxion34/ArmutAppClone/main/assets/armutbanner.jpeg)
 
 <h1>ArmutCloneApp</h1>
 
-![ustamyanimdalogo](https://github.com/nxion34/ArmutAppClone/blob/main/armutlogotek.png)
+![ustamyanimdalogo](https://raw.githubusercontent.com/nxion34/ArmutAppClone/main/assets/armutlogo.jpeg)
 <h4>Eviniz ve İş Yeriniz için çözüm ortağınız olan tüm ustalar burada.Boyacı,Tesisatçı,Elektrikçi Hemen Ustanı Bul Android Mobil Uygulama</h4>
 
 <h2>EKRAN GÖRÜNTÜLERİ</h2>
