@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp">
+    android:padding="@dimen/padding">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/ustalarCardView"
@@ -18,7 +18,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="163dp">
+            android:layout_height="@dimen/cardview_const_layout">
 
 
             <ImageView
@@ -37,8 +37,7 @@
         android:id="@+id/txtUstalarIsim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="166dp"
-        android:text="TextView"
+        android:layout_marginTop="@dimen/cardview_layout_margin_top"
         android:textColor="@color/armut_yesil"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/ustalarCardView"

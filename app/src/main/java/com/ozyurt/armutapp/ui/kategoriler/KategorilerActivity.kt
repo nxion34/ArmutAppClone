@@ -16,10 +16,7 @@ import com.ozyurt.armutapp.data.model.KategorilerUstalarResponsItem
 import com.ozyurt.armutapp.data.model.Ustalar
 import com.ozyurt.armutapp.databinding.ActivityKategorilerBinding
 import com.ozyurt.armutapp.ui.ustalar.UstalarActivity
-import com.ozyurt.armutapp.util.AlertUtil
-import com.ozyurt.armutapp.util.Constant
-import com.ozyurt.armutapp.util.NesneUtil
-import com.ozyurt.armutapp.util.OnItemClickListener
+import com.ozyurt.armutapp.util.*
 
 class KategorilerActivity : AppCompatActivity() {
 
@@ -63,6 +60,8 @@ class KategorilerActivity : AppCompatActivity() {
             }
         }
 
+        ProggresDialogUtil.goster(this,getString(R.string.lutfenBekleyiniz))
+
         initViewModel()
     }
 
@@ -84,16 +83,21 @@ class KategorilerActivity : AppCompatActivity() {
                 Log.e("mert", "observe:" + it.toString())
                 kategorilerListe = it
                 initRecycleView(kategorilerListe!!)
+                ProggresDialogUtil.gizle()
 
             })
 
             error?.observe(this@KategorilerActivity, Observer {
 
                 Log.e("mert", "error:")
+                ProggresDialogUtil.gizle()
+
             })
 
             loading?.observe(this@KategorilerActivity, Observer {
                 Log.e("mert", "loading:")
+                ProggresDialogUtil.gizle()
+
 
             })
         }
@@ -112,7 +116,7 @@ class KategorilerActivity : AppCompatActivity() {
                     val ustaStringi = NesneUtil.nesnedenJsonStringe(kategoriler.get(position))
 
                     val ustaIntent = Intent(this@KategorilerActivity, UstalarActivity::class.java)
-                    ustaIntent.putExtra(Constant.TASİNAN_KATEOGRİ, ustaStringi)
+                    ustaIntent.putExtra(Constant.TASİNAN_KATEOGRI, ustaStringi)
                     startActivity(ustaIntent)
                 }
             })

@@ -12,34 +12,39 @@ import com.ozyurt.armutapp.util.GlideUtil
 import com.ozyurt.armutapp.util.OnItemClickListener
 
 class UstalarAdaptor(
-        var ustalar: List<Ustalar>,
-        var onItemClickListener: OnItemClickListener
-    ) : RecyclerView.Adapter<UstalarAdaptor.CategoryViewHolder>() {
+    var ustalar: List<Ustalar>,
+    var onItemClickListener: OnItemClickListener
+) : RecyclerView.Adapter<UstalarAdaptor.CategoryViewHolder>() {
 
-        inner class CategoryViewHolder(val binding: CardviewUstalarBinding) :
-            RecyclerView.ViewHolder(binding.root)
+    inner class CategoryViewHolder(val binding: CardviewUstalarBinding) :
+        RecyclerView.ViewHolder(binding.root)
 
-        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryViewHolder {
-            val binding =
-                CardviewUstalarBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-            return CategoryViewHolder(binding)
-        }
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryViewHolder {
+        val binding =
+            CardviewUstalarBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return CategoryViewHolder(binding)
+    }
 
-        override fun onBindViewHolder(holder: CategoryViewHolder, position: Int) {
-            with(holder) {
-                binding.apply {
-                    txtUstalarIsim.text = ustalar[position].UstaAdi
-                    var imageUrl = ustalar.get(position).Fotografi as String
-                    GlideUtil.resmiIndirGoster(imageUstalar.context, imageUrl, imageUstalar)
-                    ustalarCardView.setOnClickListener{
-                        onItemClickListener.onItemClick(position)
-                    }
+    override fun onBindViewHolder(holder: CategoryViewHolder, position: Int) {
+        with(holder) {
+            binding.apply {
+                txtUstalarIsim.text = ustalar[position].UstaAdi
+                var imageUrl = ustalar.get(position).Fotografi as String
+                GlideUtil.resmiIndirGoster(imageUstalar.context, imageUrl, imageUstalar)
+                ustalarCardView.setOnClickListener{
+                    onItemClickListener.onItemClick(position)
                 }
             }
         }
-
-        override fun getItemCount(): Int {
-            return ustalar.size
-        }
-
     }
+
+    override fun getItemCount(): Int {
+        return ustalar.size
+    }
+
+
+    fun setData(urunListFiltre:List<Ustalar>) {
+        ustalar =urunListFiltre
+    }
+
+}

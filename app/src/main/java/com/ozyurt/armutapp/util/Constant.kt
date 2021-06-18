@@ -6,6 +6,6 @@ object Constant {
 
     val BASE_URL = "https://raw.githubusercontent.com/nxion34/ArmutCloneAPI/main/"
     val GRID_KOLON_SAYİ=2
-    val TASİNAN_KATEOGRİ = "TASİNAN_KATEOGRİ"
+    val TASİNAN_KATEOGRI = "TASİNAN_KATEOGRİ"
 }
 

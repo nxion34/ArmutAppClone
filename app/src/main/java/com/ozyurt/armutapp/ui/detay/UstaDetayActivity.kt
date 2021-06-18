@@ -9,6 +9,7 @@ import com.ozyurt.armutapp.databinding.ActivityUstaDetayBinding
 import com.ozyurt.armutapp.util.Constant
 import com.ozyurt.armutapp.util.GlideUtil
 import com.ozyurt.armutapp.util.NesneUtil
+import com.ozyurt.armutapp.util.ProggresDialogUtil
 
 class UstaDetayActivity : AppCompatActivity() {
 
@@ -25,7 +26,10 @@ class UstaDetayActivity : AppCompatActivity() {
         binding = ActivityUstaDetayBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val ustaDetay = intent. getStringExtra(Constant.TASİNAN_KATEOGRİ)
+        //ProggresDialogUtil.goster(this, getString(R.string.lutfenBekleyiniz))
+
+
+        val ustaDetay = intent. getStringExtra(Constant.TASİNAN_KATEOGRI)
         ustalar = NesneUtil.jsonStringdenNesneye(ustaDetay!!)
 
         binding.apply {

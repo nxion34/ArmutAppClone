@@ -2,18 +2,70 @@
 
     <dimen name="sıfırDp">0dp</dimen>
 
-
     <dimen name="imageView2MarginTop">36dp</dimen>
-
 
     <dimen name="imageView3_width">404dp</dimen>
     <dimen name="imageView3_height">38dp</dimen>
     <dimen name="imageView3_margintop">204dp</dimen>
 
-
     <dimen name="textViewSize">34sp</dimen>
-
     <dimen name="layout_marginStart">55dp</dimen>
+
+    <dimen name="layout_width">90dp</dimen>
+    <dimen name="layout_heigt">98dp</dimen>
+    <dimen name="sifir17dp">0.17dp</dimen>
+
+    <dimen name="giris_yap_text_size">34sp</dimen>
+    <dimen name="layout_margin_top">76dp</dimen>
+
+    <dimen name="armut_banner_width">505dp</dimen>
+    <dimen name="armut_banner_heigt">177dp</dimen>
+
+    <dimen name="text_layout_margin_top">20dp</dimen>
+
+    <dimen name="simdi_hizmetlere_goz_at_size">24sp</dimen>
+
+    <dimen name="search_bar_width">405dp</dimen>
+    <dimen name="search_bar_height">45dp</dimen>
+
+    <dimen name="splash_logo_layout_width">87dp</dimen>
+    <dimen name="splash_logo_layout_heigt">99dp</dimen>
+
+    <dimen name="usta_kapak_height">190dp</dimen>
+
+    <dimen name="ellibesdp">55dp</dimen>
+
+    <dimen name="onbesdp">15dp</dimen>
+    <dimen name="tesisatci_textsize">32dp</dimen>
+    <dimen name="tesisatci_logo_margintop">30dp</dimen>
+    <dimen name="tesisatci_logo_layoutmargin">4dp</dimen>
+
+    <dimen name="tesisatci_Ustaadi_width">330dp</dimen>
+    <dimen name="tesisatci_Ustaadi_heigt">31dp</dimen>
+    <dimen name="tesisatci_Ustaadi_margintop">50dp</dimen>
+    <dimen name="tesisatci_Ustatel_margintop">20dp</dimen>
+    <dimen name="tesisatci_Ustamail_margintop">15dp</dimen>
+
+    <dimen name="tesisatci_mail_margintop">35dp</dimen>
+    <dimen name="tesisatci_aciklama_layout_width">379dp</dimen>
+
+    <dimen name="btn_sirala_width">247dp</dimen>
+    <dimen name="btn_sirala_heigt">51dp</dimen>
+    <dimen name="btn_sirala_margintop">12dp</dimen>
+    <dimen name="btn_sirala_paddingleft">15dp</dimen>
+
+
+    <dimen name="swtch_layout_width">81dp</dimen>
+    <dimen name="swtch_layout_heigt">38dp</dimen>
+
+    <dimen name="cardview_const_layout">163dp</dimen>
+    <dimen name="cardview_layout_margin_top">166dp</dimen>
+
+    <dimen name="padding">16dp</dimen>
+
+
+
+
 
 
 

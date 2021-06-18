@@ -8,44 +8,49 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="505dp"
-        android:layout_height="177dp"
+        android:layout_width="@dimen/armut_banner_width"
+        android:layout_height="@dimen/armut_banner_heigt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/armut_kategori_enust2" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Şimdi Hizmetlere Göz At"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
-
-    <SearchView
-        android:id="@+id/srchViewKategoriler"
-        android:layout_width="405dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="28dp"
-        android:queryHint="Hangi Hizmete İhtiyacın Var ?"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcwKategoriler"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/sıfırDp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/srchViewKategoriler"
+        app:layout_constraintTop_toBottomOf="@+id/btnSirala"
+        app:layout_constraintVertical_bias="1.0"
         tools:listitem="@layout/cardview_hizmetler" />
+
+    <Button
+        android:id="@+id/btnSirala"
+        android:layout_width="@dimen/btn_sirala_width"
+        android:layout_height="@dimen/btn_sirala_heigt"
+        android:layout_marginTop="@dimen/btn_sirala_margintop"
+        android:drawableRight="@drawable/yesilok"
+        android:paddingLeft="@dimen/btn_sirala_paddingleft"
+        android:text="@string/filtre_sirala_azalan"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Switch
+        android:id="@+id/switchRcwDegis"
+        android:layout_width="@dimen/swtch_layout_width"
+        android:layout_height="@dimen/swtch_layout_heigt"
+        android:thumb="@drawable/switch_thumb_false"
+        android:thumbTint="@color/logoYaziRengiSiyah"
+        android:track="@drawable/track"
+        app:layout_constraintBottom_toTopOf="@+id/rcwKategoriler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toEndOf="@+id/btnSirala"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.521" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
