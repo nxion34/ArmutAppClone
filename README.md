@@ -11,7 +11,7 @@
 
 <h2>MİMARİ PAKET YAPISI</h2>
 
-![MimariPaketYapisi](https://user-images.githubusercontent.com/61050531/105401082-cc451180-5c36-11eb-8e3b-2c7bfc5b1085.png)
+![MimariPaketYapisi](https://github.com/nxion34/ArmutAppClone/blob/main/mimariPaket.png)
 
 <h2>Kullanılan Kütüphaneler ve Eklentiler</h2>
 <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠</g-emoji>
